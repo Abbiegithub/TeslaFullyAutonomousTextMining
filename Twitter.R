@@ -2,10 +2,10 @@ install.packages("twitteR")
 install.packages("RCurl")
 require("twitteR")
 require("RCurl")
-consumer_key <- '2Hh9RYL0AbJZGcwuZS6Noxp9p'
-consumer_secret <- 'aNRjvrVuCQtFYu4fbZX7A2KoLtfpjW6kmEBSa1OGcLWieWjkyM'
-consumer_token <- '235934570-ka4k1kWwhGq4xCr71EsDf0aJDiLvVnIWe0NMtF0U'
-access_secret <- 'sjUxImPWlZvbkQFPqm9dfujd2iW8FahHJ3Msq2k1soYjX'
+consumer_key <- 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+consumer_secret <- 'xxxxxxxxxxxxxxxxxxxx'
+consumer_token <- 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+access_secret <- 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 setup_twitter_oauth(consumer_key,consumer_secret,consumer_token,access_secret)
 xyz <- searchTwitter("#tesla", n=30000, lang="en", since = "2016-10-01", until = "2016-12-06", resultType = "recent")
 xyz1 <- searchTwitter("#Autonomous", n=30000, lang="en", since = "2016-10-01", until = "2016-12-06", resultType = "recent")
